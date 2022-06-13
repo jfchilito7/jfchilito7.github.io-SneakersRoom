@@ -236,6 +236,86 @@ nav {
     font-size: 1.2rem;
 }
 
+.blogpost__container--img {
+    padding: 40px 50px 40px;
+}
+
+.blogpost__container--img img{
+    width: 100%;
+}
+
+.blogpost__container--main {
+    padding: 40px 50px 40px;
+}
+
+.blogpost__container--main h3 {
+    font-size: 2.0rem;
+    border-bottom: 1px solid #9c9d9f;
+    padding-bottom: 20px ;
+}
+
+.new__container h1 {
+    font-size: 2.8rem;
+    margin-top: 20px;
+}
+.new__container p {
+    font-size: 2.0rem;
+    margin-top: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.contact__conteiner--main {
+    width: 100%;
+    height: 350px;
+    background-color: #e6e9ed;
+}
+
+.contact__conteiner--main {
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact__conteiner--main div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact__conteiner--main div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.contact__left {
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact__right {
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact__right p {
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+.contact__left p {
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+.contact__conteiner--main img {
+    width: 100px;
+    margin-right: 15px;
+}
+
 
 
 
