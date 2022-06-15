@@ -316,6 +316,82 @@ nav {
     margin-right: 15px;
 }
 
+.profile__main--container {
+    padding: 70px 40px;
+    background-color: #e6e9ed;
+    margin-bottom: 50px;
+}
+
+.profile__main--container img {
+    width: 610px;
+    margin-right: 30px;
+    margin-left: 80px;
+}
+
+.profile__container {
+    display: flex;
+}
+
+.profile__container h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.profile__container p {
+    width: 80%;
+    font-size: 1.8rem;
+    line-height: 25px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    margin-left: 35px;
+    text-align: justify;
+}
+
+.profile__main--proyects {
+    padding: 0 50px 40px
+}
+
+.profile__main--proyects h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+.proyects__main--container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.proyect__container {
+    padding: 0 10px;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.proyect__container img {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.proyect__container h4 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.proyect__container p {
+    font-size: 1.4rem;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+.background {
+    background-color: #e6e9ed;
+}
+
 
 
 
