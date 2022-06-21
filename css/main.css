@@ -32,7 +32,7 @@ header {
 }
 
 .grid__container {
-    max-width: 98%;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -155,7 +155,7 @@ nav {
 }
 
 .blogs__news--img-container img {
-    width: 80%;
+    width: 95%;
     margin-top: 20px;
 }
 
@@ -197,11 +197,14 @@ nav {
     text-align: center;
 }
 
+.post__container--main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    column-gap: 40px;
+}
+
 .post__container {
-    display: inline-block;
-    padding-left: 10px;
-    margin-left: 28px;
-    max-width: 30%;
+    max-width: 100%;
     margin-bottom: 50px;
 }
 
@@ -214,6 +217,7 @@ nav {
     font-size: 1.4rem;
     line-height: 25px;
     margin-bottom: 35px;
+    text-align: justify;
 }
 
 .post__container img {
@@ -266,21 +270,20 @@ nav {
 }
 
 .contact__conteiner--main {
-    width: 100%;
-    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     background-color: #e6e9ed;
 }
 
 .contact__conteiner--main {
     width: 100%;
-    min-height: 250px;
     text-align: center;
     padding-bottom: 50px;
 }
 
 .contact__conteiner--main div {
     display: inline-block;
-    width: 49.5%;
+    width: 60%;
     height: 100%;
 }
 
@@ -289,6 +292,11 @@ nav {
     padding-bottom: 5px;
     font-size: 2.4rem;
     margin-bottom: 20px;
+}
+
+.contact__container {
+    justify-self: center;
+    align-self: center;
 }
 
 .contact__left {
@@ -362,7 +370,7 @@ nav {
 
 .proyects__main--container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
 
 .proyect__container {

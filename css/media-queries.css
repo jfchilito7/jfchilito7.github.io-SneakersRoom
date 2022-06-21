@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+    .profile__container {
+        display: block
+    }
+}
+
+@media (max-width: 900px) {
+    .blogs__main--new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+
+    }
+
+    .blogs__news--img-container {
+        grid-row: 2;
+    }
+
+    .blogs__news--info-container{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .blogs__news--info-container h2 {
+        margin-top: 50px;
+    }
+
+    .profile__container {
+        display: block
+    }
+}
